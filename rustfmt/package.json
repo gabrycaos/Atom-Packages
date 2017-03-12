@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117112-4072-vaz2pv.pzj1w0zfr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117112-4072-vaz2pv.pzj1w0zfr/package.tgz",
+        "spec": "/tmp/d-117112-4072-vaz2pv.pzj1w0zfr/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117112-4072-81hqa4.kyd92xd2t9"
+    ]
+  ],
+  "_from": "../d-117112-4072-vaz2pv.pzj1w0zfr/package.tgz",
+  "_id": "rustfmt@0.1.3",
+  "_inCache": true,
+  "_location": "/rustfmt",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117112-4072-vaz2pv.pzj1w0zfr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117112-4072-vaz2pv.pzj1w0zfr/package.tgz",
+    "spec": "/tmp/d-117112-4072-vaz2pv.pzj1w0zfr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117112-4072-vaz2pv.pzj1w0zfr/package.tgz",
+  "_shasum": "5fadbbb0e8dc76e1a3e09fdcb125626aaf647bae",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117112-4072-vaz2pv.pzj1w0zfr/package.tgz",
+  "_where": "/tmp/apm-install-dir-117112-4072-81hqa4.kyd92xd2t9",
+  "bugs": {
+    "url": "https://github.com/xgdapg/atom-rustfmt/issues"
+  },
+  "dependencies": {},
+  "description": "Format rust source code with rustfmt",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "homepage": "https://github.com/xgdapg/atom-rustfmt#readme",
+  "keywords": [
+    "rust",
+    "fmt",
+    "rustfmt"
+  ],
+  "license": "MIT",
+  "main": "./lib/rustfmt",
+  "name": "rustfmt",
+  "optionalDependencies": {},
+  "package-deps": [
+    "language-rust"
+  ],
+  "readme": "# rustfmt package\n\nFormat rust source code with rustfmt.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgdapg/atom-rustfmt.git"
+  },
+  "version": "0.1.3",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".js": [
+        "lib/rustfmt.js"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

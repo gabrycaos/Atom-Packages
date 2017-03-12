@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117113-3923-15l79jg.lkc0e019k9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117113-3923-15l79jg.lkc0e019k9/package.tgz",
+        "spec": "/tmp/d-117113-3923-15l79jg.lkc0e019k9/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117113-3923-yz01zv.z963zbyb9"
+    ]
+  ],
+  "_from": "../d-117113-3923-15l79jg.lkc0e019k9/package.tgz",
+  "_id": "atom-python-run@0.7.3",
+  "_inCache": true,
+  "_location": "/atom-python-run",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117113-3923-15l79jg.lkc0e019k9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117113-3923-15l79jg.lkc0e019k9/package.tgz",
+    "spec": "/tmp/d-117113-3923-15l79jg.lkc0e019k9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117113-3923-15l79jg.lkc0e019k9/package.tgz",
+  "_shasum": "a8490e45ebc13627e8d9cf53d6baaa3bc6cd7494",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117113-3923-15l79jg.lkc0e019k9/package.tgz",
+  "_where": "/tmp/apm-install-dir-117113-3923-yz01zv.z963zbyb9",
+  "bugs": {
+    "url": "https://github.com/foreshadow/atom-python-run/issues"
+  },
+  "dependencies": {},
+  "description": "Run a python source file.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/foreshadow/atom-python-run#readme",
+  "keywords": [
+    "python"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom-python-run.js",
+  "name": "atom-python-run",
+  "optionalDependencies": {},
+  "readme": "# atom-python-run package \n[![GitHub issues](https://img.shields.io/github/issues/foreshadow/atom-python-run.svg?style=plastic)](https://github.com/foreshadow/atom-python-run/issues)\n[![GitHub stars](https://img.shields.io/github/stars/foreshadow/atom-python-run.svg?style=plastic)](https://github.com/foreshadow/atom-python-run/stargazers)\n[![GitHub forks](https://img.shields.io/github/forks/foreshadow/atom-python-run.svg?style=plastic)](https://github.com/foreshadow/atom-python-run/network)\n[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)](https://raw.githubusercontent.com/foreshadow/atom-python-run/master/LICENSE.md)\n\nRun your python source file (.py) using `F5` or `F6`!\n\n![](https://cloud.githubusercontent.com/assets/2712675/18710388/9a665ed8-8037-11e6-803a-35e4555e89d0.jpg)\n\n# Prerequisite\n\n- Windows \n- Add the directory of python.exe to ```PATH```.\n\n# Method of use\n\n1. Open a .py file.\n2. Hit `F5` or `F6` to run.\n  - **It will save the file in current editor immediately without a confirmation, be aware.** \n\n# Features\n\n- Using `python.exe`\n  - Almost the same console with python IDLE, which provides syntax error and runtime error messages.\n- CodeBlocks debug console style\n  - Shows return value and execution time\n    - It is a rough time based on real time rather than CPU kernel time or CPU user time\n- New an issue if you have any idea of new features.\n\n![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)\n\nThis is a package for Atom\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foreshadow/atom-python-run.git"
+  },
+  "version": "0.7.3",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".js": [
+        "lib/atom-python-run.js"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
